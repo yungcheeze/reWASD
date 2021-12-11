@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 3.0,
+  "appVersion": "5.5.1",
+  "config": {
+    "appName": "Switch to Xbox 360",
+    "minTimeUnit": 1
+  },
+  "devices": {
+    "hardware": [
+      {
+        "id": 1,
+        "name": "gamepad",
+        "convertToVirtual": true
+      }
+    ],
+    "virtual": {
+      "gamepads": [
+        {
+          "id": 1,
+          "type": "360"
+        }
+      ]
+    }
+  }
+}
